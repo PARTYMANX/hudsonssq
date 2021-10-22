@@ -31,13 +31,14 @@ For each step, there is a 32 bit integer offset.
 
 ### Steps
 
-Here it gets messy.  Each step is a byte as usual, but for each bit set, there is a byte after the step mask containing an index to a mush item.  For example:
+Here it gets messy.  Each step is a byte as usual, but for each bit set, there is a byte after the step mask containing an index to a mush item, from least to most significant bit.  For example:
 
 ```
 03 <- step map, two bits set
 00 <- mush index 0; no item
 01 <- mush index 1; 1st slot
 ```
+would correspond to a left down jump with the down arrow being mush item 1.
 
 As with standard SSQ, a byte with no bits set corresponds to an entry in the extra data introduced by DDRMAX (freezes).
 
