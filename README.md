@@ -185,7 +185,7 @@ All chart data is contained in data/ssq.bin on the disc.  Use [mpbindump](https:
 
 #### Mario Mix
 
-All music is contained in `sound/MRODDR\_Snd.msm`.  I haven't found anything that can open or extract this file.
+All music is contained in `sound/MRODDR_Snd.msm`.  I haven't found anything that can open or extract this file.
 
 #### Hottest Party
 
