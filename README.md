@@ -174,7 +174,7 @@ Every item acts identically to Mario Mix, though is skinned to be not-Mario.
 
 ## Extracting Hudson Charts
 
-Each Hudson DDR runs on the Mario Party engine to some extent.  All 
+Each Hudson DDR runs on an engine derived from Hudson's work on Mario Party.  All data is stored in .bin pack files that can be opened with existing Mario Party modding tools, or other game modding tools.
 
 ### Chart Data
 
